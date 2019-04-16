@@ -1,0 +1,98 @@
+html{
+  font-family: sans-serif;
+}
+header{
+	background: #000080;
+	width: 100%;
+	padding: 40px 0;
+	color: white;
+	text-align: center;
+}
+
+nav ul {
+	background-color: #43A286;
+	color: white;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	
+	
+}
+nav ul li{
+	display: inline-block;
+	padding: 20px;
+	font-size: 23px;
+}
+nav ul li:hover{
+	background-color: #399077
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+section{
+	line-height: 1.5em;
+	font-size: 0.9em;
+	padding: 40px;
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+.handle {
+	width: 100%;
+	background-color: #005C48;
+	box-sizing: border-box;
+	padding: 15px;
+	cursor: pointer;
+	color: white;
+	display: none;
+}
+p.menu{
+	display: inline-block;
+}
+.menu_icon div {
+  background-color: white;
+  border-radius: 2px;
+  width: 35px;
+  height: 5px;
+  margin: 5px;
+}
+.menu_icon{
+	float: right;
+	margin: .5em 0;
+}
+@media screen and (max-width: 620px){
+	nav ul{
+		max-height: 100px;
+	}
+	nav ul li{
+		box-sizing: border-box;
+		width: 100%;
+		padding: 15px;
+	}
+	.showing{
+		max-height: 20em; 
+	}
+	.handle{
+		display: block;
+	}
+	header h1{
+		font-size: 3em;
+		font-family: Maiandra GD;
+	}
+}
+
+/**css for image**/
+	.img{
+	height: 70px;
+	width: 70px;
+}
+/** end css for image**/
+
+/**css for title**/
+ 	.title{
+ 		font-family: Maiandra GD;
+ 		font-weight: bolder;
+ 		font-size: 25px;
+ 	}
+/**end css for title**/
